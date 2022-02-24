@@ -15,7 +15,7 @@ The eiPlatform enterprise integration solution is a complete Java framework that
 
 ![logo](https://www.pilotfishtechnology.com/wp-content/uploads/2015/03/pilotfish-logo.png)
 
-## Using a `Dockerfile`
+## Using a custom `Dockerfile`
 
 1. Install Docker
 
