@@ -39,7 +39,7 @@ The eiPlatform enterprise integration solution is a complete Java framework that
 	sh build.sh
 	```
 
-5. Bring up your stack by running
+6. Bring up your stack by running
 
 	```bash
 	sh start.sh
