@@ -21,7 +21,7 @@ The eiPlatform enterprise integration solution is a complete Java framework that
 
 	- [Docker Install documentation](https://docs.docker.com/install/)
 
-2. Clone the main branch of the repository
+2. Clone the main branch of the [repository](https://github.com/pilotfishtechnology/eiplatform_docker_example)
 
 	```bash
 	cd /opt
