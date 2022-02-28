@@ -36,13 +36,15 @@ The eiPlatform enterprise integration solution is a complete Java framework that
 5. Build the container
 
 	```bash
-	sh build.sh
+	docker build -t my-custom-eiplatform-app .
 	```
 
 6. Bring up your stack by running
 
 	```bash
-	sh start.sh
+	docker run -it -d --rm --name eiplatform \
+	  -p 8080:8080 \
+	  my-custom-eiplatform-app
 	```
 
 When your docker container is running, connect to it on port `8080` to access the eiplatform instance.
