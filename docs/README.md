@@ -1,3 +1,9 @@
+# Build
+
+```bash
+docker build -t my-custom-eiplatform-app .
+```
+
 # Start
 
 ```bash
