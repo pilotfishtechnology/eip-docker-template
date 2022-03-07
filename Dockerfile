@@ -1,7 +1,5 @@
 FROM pilotfishtechnology/eiplatform:latest
 ENV JAVA_OPTS="-Xms1g -Xmx3g"
-COPY ./eip-root/ /opt/pilotfish/eip-root/
-COPY ./pflicense.key /opt/pilotfish/license/pflicense.key
 
 # If there’s any need to use a custom war file or to patch it, uncomment the following lines
 #COPY ./eip.war /usr/local/tomcat/webapps/eip.war
